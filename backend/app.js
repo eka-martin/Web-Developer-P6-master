@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 
-//const Thing = require('./models/Thing');
-
+const Sauce = require('./models/Sauce');
+const User = require('./models/User');
 
 mongoose.connect('mongodb+srv://Katya:xtj8yW7V7orqfcfe@cluster87.jeqpvfv.mongodb.net/?retryWrites=true&w=majority',
     {
